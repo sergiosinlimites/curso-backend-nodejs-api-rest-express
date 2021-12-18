@@ -1,4 +1,3 @@
-const { string } = require('joi');
 const joi = require('joi');
 
 const id = joi.string().uuid() // siempre primero se inicia por el tipo de campo
